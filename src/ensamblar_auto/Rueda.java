@@ -11,15 +11,28 @@ package ensamblar_auto;
  */
 public class Rueda {
     
-    private final int tamaño;
+    private final String material;
+    private final String fabricante;
+    private final String dimension;
 
-    public Rueda(int tamaño) {
-        this.tamaño = tamaño;
+    public Rueda(String material, String fabricante, String dimension) {
+        this.material = material;
+        this.fabricante = fabricante;
+        this.dimension = dimension;
     }
 
-    public int getTamaño() {
-        return tamaño;
+    public String getMaterial() {
+        return material;
     }
+
+    public String getFabricante() {
+        return fabricante;
+    }
+
+    public String getDimension() {
+        return dimension;
+    }
+    
     
     
     
